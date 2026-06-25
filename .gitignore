@@ -1,0 +1,19 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+
+# HyperFrames generated caches
+**/.thumbnails/
+**/.hyperframes/
+
+# Local Python/voice experiments
+**/.venv/
+
+# Generated exports can be heavy. Commit only intentional deliverables.
+**/renders/*.mp4
+**/renders/*.mov
+**/renders/*.webm
+
+# Keep source snapshots when they are used for review, but ignore ad-hoc extras.
+**/snapshots/tmp/

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es" data-resolution="landscape">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, height=1080">
+    <title>Agentyx Product Promo</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("capture/assets/fonts/636a5ac981f94f8b-s.p.woff2") format("woff2");
+        font-weight: 400 800;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Inter";
+        src: url("capture/assets/fonts/19cfc7226ec3afaa-s.woff2") format("woff2");
+        font-weight: 300 700;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("capture/assets/fonts/558ca1a6aa3cb55e-s.p.woff2") format("woff2");
+        font-weight: 400 500;
+        font-style: normal;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #f7f9fc;
+      }
+
+      body {
+        font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+      }
+
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #f7f9fc;
+      }
+
+      .scene-clip {
+        position: absolute;
+        inset: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+      }
+
+      audio {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-at0g" id="root" data-composition-id="main" data-start="0" data-duration="20" data-width="1920" data-height="1080">
+      <audio data-hf-id="hf-a3zi" id="narration" src="narration.wav" data-start="0" data-duration="20" data-track-index="0" data-volume="1"></audio>
+
+      <div data-hf-id="hf-i3hi" id="beat-1" class="scene-clip" data-composition-id="beat-1-hook" data-composition-src="compositions/beat-1-hook.html" data-start="0" data-duration="4" data-track-index="1"></div>
+      <div data-hf-id="hf-dv1i" id="beat-2" class="scene-clip" data-composition-id="beat-2-systems" data-composition-src="compositions/beat-2-systems.html" data-start="4" data-duration="3.8" data-track-index="1"></div>
+      <div data-hf-id="hf-oy5r" id="beat-3" class="scene-clip" data-composition-id="beat-3-workflow" data-composition-src="compositions/beat-3-workflow.html" data-start="7.8" data-duration="4.6" data-track-index="1"></div>
+      <div data-hf-id="hf-1o9p" id="beat-4" class="scene-clip" data-composition-id="beat-4-proof" data-composition-src="compositions/beat-4-proof.html" data-start="12.4" data-duration="3.8" data-track-index="1"></div>
+      <div data-hf-id="hf-kgck" id="beat-5" class="scene-clip" data-composition-id="beat-5-cta" data-composition-src="compositions/beat-5-cta.html" data-start="16.2" data-duration="3.8" data-track-index="1"></div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

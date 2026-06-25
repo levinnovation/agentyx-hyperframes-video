@@ -1,0 +1,238 @@
+<template id="beat-2-systems-template">
+  <div id="beat-2-systems" data-composition-id="beat-2-systems" data-start="0" data-duration="3.8" data-width="1920" data-height="1080">
+    <div class="surface"></div>
+    <section class="copy">
+      <p>Trabajan dentro de tus sistemas</p>
+      <h2>ERP. CRM. WhatsApp. Email.</h2>
+    </section>
+    <svg class="paths" viewBox="0 0 1920 1080" aria-hidden="true">
+      <path class="draw draw-a" d="M 430 375 C 630 250 820 300 960 540" />
+      <path class="draw draw-b" d="M 1490 385 C 1270 245 1080 300 960 540" />
+      <path class="draw draw-c" d="M 430 720 C 620 815 820 790 960 540" />
+      <path class="draw draw-d" d="M 1490 715 C 1260 825 1080 780 960 540" />
+    </svg>
+    <div class="pulse-ring ring-a"></div>
+    <div class="pulse-ring ring-b"></div>
+    <div class="node">
+      <img class="node-logo" src="assets/agentyx-logo.png" alt="" />
+      <strong>Agentyx</strong>
+      <em>AI employees online</em>
+    </div>
+    <div class="system erp"><b>ERP</b><span>inventario validado</span></div>
+    <div class="system crm"><b>CRM</b><span>oportunidad creada</span></div>
+    <div class="system wa"><b>WhatsApp</b><span>cliente respondido</span></div>
+    <div class="system mail"><b>Email</b><span>cotizacion enviada</span></div>
+    <div class="chips">
+      <span>Sheets</span><span>Portales</span><span>Documentos</span><span>Bases de datos</span>
+    </div>
+    <style>
+      @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("capture/assets/fonts/636a5ac981f94f8b-s.p.woff2") format("woff2");
+        font-weight: 400 800;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Inter";
+        src: url("capture/assets/fonts/19cfc7226ec3afaa-s.woff2") format("woff2");
+        font-weight: 300 700;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("capture/assets/fonts/558ca1a6aa3cb55e-s.p.woff2") format("woff2");
+        font-weight: 400 500;
+        font-style: normal;
+      }
+
+      #beat-2-systems {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #f7f9fc;
+        color: #172033;
+        font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+      }
+
+      .surface {
+        position: absolute;
+        left: 120px;
+        top: 90px;
+        width: 1680px;
+        height: 900px;
+        border: 1px solid #d2dae4;
+        border-radius: 28px;
+        background:
+          linear-gradient(135deg, rgba(37, 99, 235, 0.04), rgba(34, 211, 238, 0.035)),
+          radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.12), rgba(247, 249, 252, 0) 45%),
+          #ffffff;
+        box-shadow: 0 30px 90px rgba(15, 23, 41, 0.08);
+      }
+
+      .copy {
+        position: absolute;
+        left: 250px;
+        top: 135px;
+      }
+
+      .copy p {
+        margin: 0 0 18px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 18px;
+        letter-spacing: 0.18em;
+        color: #2563eb;
+        text-transform: uppercase;
+      }
+
+      .copy h2 {
+        margin: 0;
+        font-size: 72px;
+        line-height: 1;
+        letter-spacing: 0;
+      }
+
+      .paths {
+        position: absolute;
+        inset: 0;
+      }
+
+      .draw {
+        fill: none;
+        stroke: #22d3ee;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-dasharray: 650;
+        stroke-dashoffset: 650;
+        opacity: 0.75;
+        filter: drop-shadow(0 0 12px rgba(34, 211, 238, 0.2));
+      }
+
+      .pulse-ring {
+        position: absolute;
+        left: 790px;
+        top: 387px;
+        width: 340px;
+        height: 306px;
+        border-radius: 26px;
+        border: 1px solid rgba(34, 211, 238, 0.28);
+        opacity: 0;
+      }
+
+      .node {
+        position: absolute;
+        left: 785px;
+        top: 382px;
+        width: 350px;
+        height: 316px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        border: 1px solid rgba(37, 99, 235, 0.3);
+        border-radius: 26px;
+        background: #ffffff;
+        box-shadow: 0 26px 70px rgba(37, 99, 235, 0.18);
+      }
+
+      .node-logo {
+        width: 92px;
+        height: 96px;
+        object-fit: contain;
+        filter: drop-shadow(0 18px 26px rgba(37, 99, 235, 0.22));
+      }
+
+      .node strong {
+        font-size: 44px;
+      }
+
+      .node em {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 16px;
+        font-style: normal;
+        letter-spacing: 0.1em;
+        color: #22d3ee;
+        text-transform: uppercase;
+      }
+
+      .system {
+        position: absolute;
+        width: 330px;
+        min-height: 142px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        padding: 28px;
+        border: 1px solid #d2dae4;
+        border-radius: 22px;
+        background: #ffffff;
+        box-shadow: 0 20px 55px rgba(15, 23, 41, 0.09);
+        overflow: hidden;
+      }
+
+      .system::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 4px;
+        background: linear-gradient(90deg, #2563eb, #22d3ee, #34d399);
+      }
+
+      .system b {
+        font-size: 44px;
+        line-height: 1;
+      }
+
+      .system span {
+        font-family: "Inter", sans-serif;
+        font-size: 21px;
+        color: #475569;
+      }
+
+      .erp { left: 255px; top: 295px; }
+      .crm { right: 255px; top: 305px; }
+      .wa { left: 255px; bottom: 220px; }
+      .mail { right: 255px; bottom: 220px; }
+
+      .chips {
+        position: absolute;
+        left: 490px;
+        right: 490px;
+        bottom: 112px;
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+      }
+
+      .chips span {
+        padding: 13px 18px;
+        border: 1px solid rgba(37, 99, 235, 0.18);
+        border-radius: 12px;
+        background: rgba(37, 99, 235, 0.06);
+        font-family: "JetBrains Mono", monospace;
+        font-size: 17px;
+        color: #1d4ed8;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true, defaults: { ease: "power3.out" } });
+      tl.fromTo(".surface", { opacity: 0, scale: 0.96 }, { opacity: 1, scale: 1, duration: 0.6 }, 0.05);
+      tl.fromTo(".copy p, .copy h2", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, stagger: 0.1 }, 0.2);
+      tl.fromTo(".system", { opacity: 0, y: 55, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.55, stagger: 0.08 }, 0.72);
+      tl.fromTo(".node", { opacity: 0, scale: 0.82 }, { opacity: 1, scale: 1, duration: 0.65, ease: "back.out(1.45)" }, 1.05);
+      tl.fromTo(".pulse-ring", { opacity: 0.7, scale: 0.9 }, { opacity: 0, scale: 1.28, duration: 1.3, stagger: 0.22, ease: "power1.out" }, 1.12);
+      tl.to(".draw", { strokeDashoffset: 0, duration: 0.72, stagger: 0.07, ease: "power2.out" }, 1.25);
+      tl.fromTo(".chips span", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.4, stagger: 0.06 }, 2.05);
+      tl.to(".node", { y: -8, duration: 1.1, repeat: 1, yoyo: true, ease: "sine.inOut" }, 2.15);
+      window.__timelines["beat-2-systems"] = tl;
+    </script>
+  </div>
+</template>

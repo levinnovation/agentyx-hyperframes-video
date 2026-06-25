@@ -1,0 +1,358 @@
+[div] by Lev Innovation
+[a] Ver agentes en acción
+[a] Cómo trabajamos
+[a] Agendar demo
+[span] Tu próxima contratación no será una persona.
+[span] Será un AI Agent.
+[p] Agentyx despliega empleados de IA que trabajan dentro de tus sistemas, ejecutan procesos completos y convierten carga operativa en resultados medibles.
+[a] Ver agentes en acción
+[a] Probar demo técnica
+[div] 24/7
+[div] capacidad operativa
+[div] Minutos
+[div] para ejecutar procesos
+[div] Más foco
+[div] para tu equipo humano
+[span] DÓNDE ESTÁ EL TIEMPO DE TU EQUIPO
+[h2] Deja la carpintería operativa en manos de la IA.
+[span] Cruzar datos, perseguir aprobaciones y copiar entre plataformas
+[span] Agentyx absorbe ese trabajo mecánico 24/7
+[span] Tu equipo vuelve a lo estratégico
+[span] 70%
+[p] de reducción en tiempos de procesamiento sobre tus sistemas actuales.
+[figcaption] McKinsey · State of AI Adoption
+[span] EQUIPOS COMPLETOS
+[h3] No es un agente suelto. Es un equipo coordinado.
+[span] Cada agente con una responsabilidad clara
+[span] Opera sobre ERP, CRM, contabilidad y procesos manuales
+[span] Se coordina con otros agentes hasta entregar el resultado
+[span] VER AGENTES EN ACCIÓN
+[h2] Un equipo completo se pone a trabajar.
+[p] Cada empleado de IA tiene una responsabilidad, utiliza tus sistemas y coordina con otros hasta entregar el resultado.
+[div] app.agentyx.ai / workspace / sales
+[div] Agentyx
+[div] Inicio
+[div] Conversaciones
+[div] Llamadas
+[div] Clientes
+[div] Resultados
+[div] Equipo operativo
+[div] 4 AI employees online
+[div] Workspace comercial · Caso AX-2048
+[h3] Nuevo lead solicita disponibilidad y cotización
+[span] Ejecutando ahora
+[span] WhatsApp · Mariana López
+[span] Conectado
+[div] Hola, quisiera confirmar disponibilidad para 18 unidades y recibir una cotización.
+[div] Agentyx · AI employee
+[div] Claro, Mariana. Confirmé disponibilidad inmediata para las 18 unidades. También preparé la cotización y puedo coordinar una llamada breve para revisar el descuento por volumen.
+[div] Llamada completada con el cliente
+[span] 02:14
+[p] Mariana confirmó interés y solicitó entrega esta semana. El agente acordó seguimiento para hoy a las 4:00 p. m.
+[span] Escribir un mensaje o indicar el próximo objetivo...
+[div] Completado
+[p] Inventario validado en ERP
+[div] Completado
+[p] Oportunidad creada en CRM
+[div] Completado
+[p] Cotización enviada por email
+[div] Actividad
+[h4] Trabajo completado por el agente
+[p] Llamada saliente
+[p] Completado
+[p] Cliente contactado y necesidad confirmada
+[p] Hace 1 minuto
+[p] Cotización preparada
+[p] Completado
+[p] Documento generado y enviado por email
+[p] Hace 2 minutos
+[p] CRM actualizado
+[p] Completado
+[p] Oportunidad, valor y próxima acción registrados
+[p] Ahora
+[div] Resultado entregado
+[p] Lead respondido, oportunidad registrada y vendedor alertado en 4 min.
+[button] Abrir registro completo
+[span] Email
+[span] WhatsApp
+[span] Llamada
+[span] Documentos
+[span] QUÉ ES UN AI AGENT
+[h2] No es un chatbot. Es un empleado virtual.
+[p] Un AI Agent tiene un cerebro, un objetivo, herramientas y acceso a una computadora, igual que cualquier persona de carne y hueso para absorber cualquier tipo de labor. Puede hacer el 100% de las acciones que una persona puede hacer en una computadora.
+[span] AI employee · digital operator
+[span] online
+[span] Las cuatro piezas de un AI Agent
+[h3] Cerebro (Modelo LLM)
+[p] El modelo de lenguaje que piensa, razona y toma decisiones lógicas como un humano basado en tus reglas de negocio.
+[h3] Objetivo
+[p] La meta específica que el agente debe alcanzar, definida estratégicamente por tu equipo.
+[h3] Herramientas
+[p] Acceso nativo a sistemas, APIs, bases de datos y software corporativo para ejecutar tareas sin fricción.
+[h3] Computadora
+[p] Capacidad técnica para ejecutar cualquier acción que una persona normal pueda hacer en un entorno digital. Al igual que un empleado tiene su computadora y accesos, así mismo el AI Agent.
+[span] Apollo.io
+[span] ZoomInfo
+[span] Clearbit
+[span] Lusha
+[span] Gmail
+[span] Outlook
+[span] WhatsApp
+[span] Slack
+[span] Teams
+[span] Discord
+[span] Telegram
+[span] Twilio
+[span] SendGrid
+[span] Mailgun
+[span] HubSpot
+[span] Salesforce
+[span] Pipedrive
+[span] Zoho CRM
+[span] Freshsales
+[span] Close
+[span] SAP
+[span] QuickBooks
+[span] Xero
+[span] Stripe
+[span] PayPal
+[span] Square
+[span] Brex
+[span] Ramp
+[span] Bill.com
+[span] NetSuite
+[span] Instagram
+[span] Facebook
+[span] LinkedIn
+[span] Twitter/X
+[span] TikTok
+[span] YouTube
+[span] Mailchimp
+[span] Klaviyo
+[span] Google Ads
+[span] Semrush
+[span] Apollo.io
+[span] ZoomInfo
+[span] Clearbit
+[span] Lusha
+[span] Gmail
+[span] Outlook
+[span] WhatsApp
+[span] Slack
+[span] Teams
+[span] Discord
+[span] Telegram
+[span] Twilio
+[span] SendGrid
+[span] Mailgun
+[span] HubSpot
+[span] Salesforce
+[span] Pipedrive
+[span] Zoho CRM
+[span] Freshsales
+[span] Close
+[span] SAP
+[span] QuickBooks
+[span] Xero
+[span] Stripe
+[span] PayPal
+[span] Square
+[span] Brex
+[span] Ramp
+[span] Bill.com
+[span] NetSuite
+[span] Instagram
+[span] Facebook
+[span] LinkedIn
+[span] Twitter/X
+[span] TikTok
+[span] YouTube
+[span] Mailchimp
+[span] Klaviyo
+[span] Google Ads
+[span] Semrush
+[span] Google Workspace
+[span] Microsoft 365
+[span] Notion
+[span] Asana
+[span] Trello
+[span] Monday
+[span] ClickUp
+[span] Airtable
+[span] Jira
+[span] Confluence
+[span] AWS S3
+[span] Google Cloud
+[span] Azure
+[span] Dropbox
+[span] Box
+[span] OneDrive
+[span] Snowflake
+[span] BigQuery
+[span] MongoDB
+[span] PostgreSQL
+[span] OpenAI
+[span] Anthropic
+[span] Google AI
+[span] Make
+[span] Zapier
+[span] n8n
+[span] Workato
+[span] Tray.io
+[span] Segment
+[span] Amplitude
+[span] GitHub
+[span] GitLab
+[span] Vercel
+[span] AWS Lambda
+[span] Webhooks
+[span] GraphQL
+[span] REST APIs
+[span] Postman
+[span] Docker
+[span] Kubernetes
+[span] Google Workspace
+[span] Microsoft 365
+[span] Notion
+[span] Asana
+[span] Trello
+[span] Monday
+[span] ClickUp
+[span] Airtable
+[span] Jira
+[span] Confluence
+[span] AWS S3
+[span] Google Cloud
+[span] Azure
+[span] Dropbox
+[span] Box
+[span] OneDrive
+[span] Snowflake
+[span] BigQuery
+[span] MongoDB
+[span] PostgreSQL
+[span] OpenAI
+[span] Anthropic
+[span] Google AI
+[span] Make
+[span] Zapier
+[span] n8n
+[span] Workato
+[span] Tray.io
+[span] Segment
+[span] Amplitude
+[span] GitHub
+[span] GitLab
+[span] Vercel
+[span] AWS Lambda
+[span] Webhooks
+[span] GraphQL
+[span] REST APIs
+[span] Postman
+[span] Docker
+[span] Kubernetes
+[span] EMPLEADOS VIRTUALES EN PRODUCCIÓN
+[h2] Agentes reales, ejecutando trabajo real.
+[p] Ejemplos de agentes autónomos desplegados para absorber operación corporativa en LATAM.
+[div] Gastronomía
+[div] Agente
+[h3] Gestor Autónomo de Pedidos y Delivery
+[div] Qué hace
+[span] Atiende llamadas operadas por IA de voz
+[span] Procesa órdenes directamente en el sistema
+[span] Coordina un canal de delivery interno de extremo a extremo
+[span] Recupera márgenes frente a aplicaciones de terceros
+[div] Automotriz y Concesionarias
+[div] Agente
+[h3] Coordinador Proactivo de Servicio al Cliente
+[div] Qué hace
+[span] Monitorea en tiempo real el estado de vehículos en taller
+[span] Agenda citas de mantenimiento de forma automatizada
+[span] Envía alertas personalizadas sobre cambios de estado y entregas
+[div] Finanzas y Cadena de Suministro
+[div] Agente
+[h3] Auditor de Inventarios y Sincronización Contable
+[div] Qué hace
+[span] Conecta ERP con software contable para datos unificados
+[span] Mantiene la información limpia y sincronizada
+[span] Analiza tendencias de venta de forma predictiva
+[span] Emite órdenes de recompra automáticas validadas en tiempo real
+[div] Operaciones Comerciales y BI
+[div] Agente
+[h3] Analista de Datos de Negocio e Insights Comerciales
+[div] Qué hace
+[span] Cruza bases de datos masivas para resúmenes ejecutivos
+[span] Genera insights financieros listos para decisiones
+[span] Gestiona campañas digitales midiendo ROI estrictamente
+[span] Produce fotografía comercial de estudio desde capturas de celular
+[span] CÓMO TRABAJA EL EQUIPO
+[h2] No es un agente suelto. Es un equipo coordinado con jerarquía.
+[p] Cuatro roles, permisos definidos y una ruta de escalamiento cuando la decisión es demasiado importante para automatizar.
+[p] 4 roles especializados coordinados en jerarquía, 24/7
+[h3] Coordinador
+[p] Coordina y orquesta
+[h3] Especialistas
+[p] Ejecuta en tus sistemas
+[h3] Control
+[p] Valida y audita
+[h3] Human in the loop
+[p] Aprueba excepciones
+[span] Gobernanza y control
+[div] Permisos definidos por sistema
+[div] Bitácora completa de cada acción
+[div] Escalamiento humano en decisiones marcadas
+[div] Resultados medidos por proceso
+[div] Reversible: kill switch en cada agente
+[span] AGENTYX · PLATAFORMA OPERATIVA
+[h2] Desplegamos, observamos y mejoramos tu fuerza laboral de IA.
+[p] Agentyx es el plano donde corren tus agentes. Conecta con tus sistemas operativos, asigna objetivos, observa la ejecución y muestra resultados a tu equipo.
+[span] ERP
+[span] CRM
+[span] WhatsApp
+[span] Email
+[span] Sheets
+[span] Portales
+[span] Bases de datos
+[span] Documentos
+[div] Centro de control Agentyx
+[div] Fuerza laboral de IA / Activa
+[div] Objetivos y prioridades
+[div] Actividad en tiempo real
+[div] Excepciones y aprobaciones
+[div] Resultados y capacidad
+[span] CÓMO TRABAJAMOS
+[h2] Tres etapas hacia la autonomía operativa.
+[p] Un framework estratégico diseñado para mitigar riesgos e integrar tecnología sin interrumpir tu flujo actual de negocio.
+[div] Discovery & Diagnóstico Clínico
+[h3] Mapeamos tus fugas operativas.
+[span] Entrevistas con líderes de cada área
+[span] Mapeo de procesos manuales AS-IS
+[span] Ingreso a la arquitectura de tus sistemas
+[span] Roadmap de automatización con ROI
+[div] Ingeniería e Integración Nativa
+[h3] Diseñamos y conectamos los agentes.
+[span] Agentes programados a tu medida
+[span] Conexión segura a tus sistemas de uso diario
+[span] Validación determinista de datos
+[span] Pruebas antes de pasar a producción
+[div] Operación y Calibración Continua
+[h3] Operamos y mejoramos la fuerza laboral.
+[span] Hosting administrado por nosotros
+[span] Monitoreo diario de performance
+[span] Mejoras según evolución de los modelos
+[span] Soporte técnico prioritario
+[span] EMPIEZA HOY
+[h2] Integra AI Agents en tu infraestructura operativa.
+[p] Deja atrás los reprocesos manuales y eleva la eficiencia de tus departamentos clave hoy mismo. Agentes operando dentro de tus sistemas, 24/7, sin ampliar headcount.
+[div] Procesos manuales
+[div] Sistemas desconectados
+[div] Decisiones lentas
+[a] Evaluar Operación de Mi Empresa
+[span] / Lev Innovation
+[div] Empleados de IA que ejecutan el trabajo operativo de tu empresa.
+[div] Agentyx es construido y operado por Lev Innovation.
+[a] Ver agentes en acción
+[a] Agendar demo
+[div] Built and operated by
+[a] Lev Innovation
+[div] © 2026 Lev Innovation. Todos los derechos reservados.

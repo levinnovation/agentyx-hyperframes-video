@@ -1,0 +1,313 @@
+<template id="beat-3-workflow-template">
+  <div id="beat-3-workflow" data-composition-id="beat-3-workflow" data-start="0" data-duration="4.6" data-width="1920" data-height="1080">
+    <img class="workspace-shot" src="capture/screenshots/scroll-027.png" alt="" data-layout-allow-overflow />
+    <div class="browser">
+      <div class="shine" data-layout-allow-overflow></div>
+      <div class="bar"><span></span><span></span><span></span><em>app.agentyx.ai / workspace / sales</em></div>
+      <div class="layout">
+        <aside>
+          <img class="side-logo" src="assets/agentyx-logo.png" alt="" />
+          <strong>Agentyx</strong>
+          <p>Equipo operativo</p>
+          <b>4 AI employees online</b>
+        </aside>
+        <main>
+          <div class="case">Workspace comercial · Caso AX-2048</div>
+          <h2>Nuevo lead solicita disponibilidad y cotizacion</h2>
+          <div class="chat user">Hola, quisiera confirmar disponibilidad para 18 unidades y recibir una cotizacion.</div>
+          <div class="chat ai">Confirmado. Inventario validado, cotizacion preparada y seguimiento agendado.</div>
+          <div class="check-row">
+            <div class="check">Inventario validado en ERP</div>
+            <div class="check">Oportunidad creada en CRM</div>
+            <div class="check">Cotizacion enviada por email</div>
+          </div>
+        </main>
+        <section class="activity">
+          <p>ACTIVIDAD</p>
+          <h3>Trabajo completado por el agente</h3>
+          <div class="float-card one">Llamada saliente <small>COMPLETADO</small></div>
+          <div class="float-card two">Cotizacion preparada <small>COMPLETADO</small></div>
+          <div class="float-card three">CRM actualizado <small>COMPLETADO</small></div>
+          <div class="result">Resultado entregado<br /><span>Lead respondido en 4 min.</span></div>
+        </section>
+      </div>
+    </div>
+    <style>
+      @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("capture/assets/fonts/636a5ac981f94f8b-s.p.woff2") format("woff2");
+        font-weight: 400 800;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Inter";
+        src: url("capture/assets/fonts/19cfc7226ec3afaa-s.woff2") format("woff2");
+        font-weight: 300 700;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("capture/assets/fonts/558ca1a6aa3cb55e-s.p.woff2") format("woff2");
+        font-weight: 400 500;
+        font-style: normal;
+      }
+
+      #beat-3-workflow {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #edf2f8;
+        color: #172033;
+        font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+      }
+
+      .workspace-shot {
+        position: absolute;
+        left: -120px;
+        top: -85px;
+        width: 2160px;
+        height: 1215px;
+        object-fit: cover;
+        opacity: 0.2;
+        filter: blur(2px) saturate(0.85);
+      }
+
+      .browser {
+        position: absolute;
+        left: 170px;
+        top: 128px;
+        width: 1580px;
+        height: 805px;
+        overflow: hidden;
+        border: 1px solid #d2dae4;
+        border-radius: 28px;
+        background: #ffffff;
+        box-shadow: 0 42px 110px rgba(15, 23, 41, 0.18);
+      }
+
+      .shine {
+        position: absolute;
+        left: -260px;
+        top: 0;
+        width: 220px;
+        height: 805px;
+        background: linear-gradient(90deg, rgba(255,255,255,0), rgba(37,99,235,0.09), rgba(255,255,255,0));
+        z-index: 5;
+        pointer-events: none;
+      }
+
+      .bar {
+        height: 62px;
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        padding: 0 28px;
+        border-bottom: 1px solid #d2dae4;
+      }
+
+      .bar span {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #fca5a5;
+      }
+
+      .bar span:nth-child(2) { background: #fde68a; }
+      .bar span:nth-child(3) { background: #6ee7b7; }
+
+      .bar em {
+        margin-left: 420px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 15px;
+        font-style: normal;
+        color: #94a3b8;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: 240px 1fr 470px;
+        height: 743px;
+      }
+
+      aside {
+        padding: 34px 28px;
+        border-right: 1px solid #d2dae4;
+        background: #f8fafc;
+      }
+
+      aside strong {
+        display: block;
+        font-size: 25px;
+      }
+
+      .side-logo {
+        width: 42px;
+        height: 44px;
+        object-fit: contain;
+        margin-bottom: 10px;
+        filter: drop-shadow(0 8px 14px rgba(37, 99, 235, 0.2));
+      }
+
+      aside p {
+        margin: 230px 0 12px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 14px;
+        color: #94a3b8;
+        text-transform: uppercase;
+      }
+
+      aside b {
+        font-size: 20px;
+        color: #475569;
+      }
+
+      main {
+        padding: 42px 34px;
+      }
+
+      .case {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 15px;
+        letter-spacing: 0.16em;
+        color: #2563eb;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        margin: 18px 0 34px;
+        font-size: 34px;
+        line-height: 1.08;
+      }
+
+      .chat {
+        width: 660px;
+        margin-bottom: 24px;
+        padding: 24px 28px;
+        border-radius: 18px;
+        font-family: "Inter", sans-serif;
+        font-size: 22px;
+        line-height: 1.35;
+      }
+
+      .user {
+        background: #f1f5f9;
+      }
+
+      .ai {
+        margin-left: 110px;
+        border: 1px solid rgba(37, 99, 235, 0.25);
+        background: rgba(37, 99, 235, 0.09);
+        color: #1d4ed8;
+      }
+
+      .check-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        margin-top: 24px;
+      }
+
+      .check {
+        min-height: 104px;
+        padding: 36px 20px 18px;
+        border: 1px solid #d2dae4;
+        border-radius: 16px;
+        background: #f8fbff;
+        font-size: 20px;
+        color: #172033;
+      }
+
+      .check::before {
+        content: "✓ COMPLETADO";
+        display: block;
+        margin-bottom: 10px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 12px;
+        letter-spacing: 0.16em;
+        color: #34d399;
+      }
+
+      .activity {
+        position: relative;
+        padding: 42px 34px;
+        border-left: 1px solid #d2dae4;
+      }
+
+      .activity p {
+        margin: 0 0 10px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 14px;
+        letter-spacing: 0.16em;
+        color: #94a3b8;
+      }
+
+      .activity h3 {
+        margin: 0;
+        font-size: 26px;
+      }
+
+      .float-card {
+        position: absolute;
+        width: 330px;
+        padding: 24px 28px;
+        border: 1px solid #d2dae4;
+        border-radius: 18px;
+        background: #ffffff;
+        box-shadow: 0 24px 54px rgba(15, 23, 41, 0.16);
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      .float-card small {
+        display: block;
+        margin-top: 8px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 12px;
+        letter-spacing: 0.16em;
+        color: #34d399;
+      }
+
+      .one { left: 58px; top: 175px; }
+      .two { left: 98px; top: 275px; }
+      .three { left: 64px; top: 377px; }
+
+      .result {
+        position: absolute;
+        left: 48px;
+        right: 48px;
+        bottom: 58px;
+        padding: 25px;
+        border: 1px solid rgba(52, 211, 153, 0.35);
+        border-radius: 18px;
+        background: rgba(52, 211, 153, 0.08);
+        color: #10b981;
+        font-size: 23px;
+        font-weight: 700;
+      }
+
+      .result span {
+        color: #475569;
+        font-size: 19px;
+        font-weight: 500;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true, defaults: { ease: "power3.out" } });
+      tl.fromTo(".workspace-shot", { opacity: 0, scale: 1.04 }, { opacity: 0.2, scale: 1, duration: 0.75 }, 0.05);
+      tl.fromTo(".browser", { opacity: 0, y: 70, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.75, ease: "expo.out" }, 0.15);
+      tl.fromTo("aside, main, .activity", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, stagger: 0.08 }, 0.65);
+      tl.fromTo(".chat", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, stagger: 0.16 }, 1.05);
+      tl.fromTo(".check", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.42, stagger: 0.1 }, 1.6);
+      tl.fromTo(".float-card", { opacity: 0, x: 60, y: 25, rotation: 3 }, { opacity: 1, x: 0, y: 0, rotation: 0, duration: 0.55, stagger: 0.12, ease: "back.out(1.3)" }, 2.0);
+      tl.fromTo(".result", { opacity: 0, y: 35 }, { opacity: 1, y: 0, duration: 0.45 }, 2.7);
+      tl.to(".browser", { y: -10, duration: 1.3, ease: "sine.inOut" }, 3.0);
+      tl.to(".shine", { x: 2100, duration: 1.25, ease: "power2.inOut" }, 1.35);
+      window.__timelines["beat-3-workflow"] = tl;
+    </script>
+  </div>
+</template>

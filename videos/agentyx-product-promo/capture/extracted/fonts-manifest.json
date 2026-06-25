@@ -1,0 +1,265 @@
+{
+  "files": [
+    {
+      "file": "19cfc7226ec3afaa-s.woff2",
+      "family": "Inter",
+      "rawFamily": "Inter",
+      "subfamily": "Regular",
+      "postscript": "Inter-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "21350d82a1f187e9-s.woff2",
+      "family": "Inter",
+      "rawFamily": "Inter",
+      "subfamily": "Regular",
+      "postscript": "Inter-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "558ca1a6aa3cb55e-s.p.woff2",
+      "family": "JetBrains Mono",
+      "rawFamily": "JetBrains Mono",
+      "subfamily": "Regular",
+      "postscript": "JetBrainsMono-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "636a5ac981f94f8b-s.p.woff2",
+      "family": "Plus Jakarta Sans",
+      "rawFamily": "Plus Jakarta Sans",
+      "subfamily": "Regular",
+      "postscript": "PlusJakartaSans-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "64d784ea54a4acde-s.woff2",
+      "family": "JetBrains Mono",
+      "rawFamily": "JetBrains Mono",
+      "subfamily": "Regular",
+      "postscript": "JetBrainsMono-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "6d831b18ae5b01dc-s.woff2",
+      "family": "JetBrains Mono",
+      "rawFamily": "JetBrains Mono",
+      "subfamily": "Regular",
+      "postscript": "JetBrainsMono-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "6fe53d21e6e7ebd8-s.woff2",
+      "family": "Plus Jakarta Sans",
+      "rawFamily": "Plus Jakarta Sans",
+      "subfamily": "Regular",
+      "postscript": "PlusJakartaSans-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "8e9860b6e62d6359-s.woff2",
+      "family": "Inter",
+      "rawFamily": "Inter",
+      "subfamily": "Regular",
+      "postscript": "Inter-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "8ebc6e9dde468c4a-s.woff2",
+      "family": "Plus Jakarta Sans",
+      "rawFamily": "Plus Jakarta Sans",
+      "subfamily": "Regular",
+      "postscript": "PlusJakartaSans-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "9e7b0a821b9dfcb4-s.woff2",
+      "family": "Plus Jakarta Sans",
+      "rawFamily": "Plus Jakarta Sans",
+      "subfamily": "Regular",
+      "postscript": "PlusJakartaSans-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "ac0e76ddaeeb7981-s.woff2",
+      "family": "JetBrains Mono",
+      "rawFamily": "JetBrains Mono",
+      "subfamily": "Regular",
+      "postscript": "JetBrainsMono-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "ba9851c3c22cd980-s.woff2",
+      "family": "Inter",
+      "rawFamily": "Inter",
+      "subfamily": "Regular",
+      "postscript": "Inter-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "c5fe6dc8356a8c31-s.woff2",
+      "family": "Inter",
+      "rawFamily": "Inter",
+      "subfamily": "Regular",
+      "postscript": "Inter-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "df0a9ae256c0569c-s.woff2",
+      "family": "Inter",
+      "rawFamily": "Inter",
+      "subfamily": "Regular",
+      "postscript": "Inter-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "edc640959b0c7826-s.woff2",
+      "family": "JetBrains Mono",
+      "rawFamily": "JetBrains Mono",
+      "subfamily": "Regular",
+      "postscript": "JetBrainsMono-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    },
+    {
+      "file": "ff71da380fbe67dd-s.woff2",
+      "family": "JetBrains Mono",
+      "rawFamily": "JetBrains Mono",
+      "subfamily": "Regular",
+      "postscript": "JetBrainsMono-Regular",
+      "weight": 400,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true
+    }
+  ],
+  "families": [
+    {
+      "family": "Inter",
+      "weights": [
+        400
+      ],
+      "variable": true,
+      "fileCount": 6,
+      "files": [
+        "19cfc7226ec3afaa-s.woff2",
+        "21350d82a1f187e9-s.woff2",
+        "8e9860b6e62d6359-s.woff2",
+        "ba9851c3c22cd980-s.woff2",
+        "c5fe6dc8356a8c31-s.woff2",
+        "df0a9ae256c0569c-s.woff2"
+      ]
+    },
+    {
+      "family": "JetBrains Mono",
+      "weights": [
+        400
+      ],
+      "variable": true,
+      "fileCount": 6,
+      "files": [
+        "558ca1a6aa3cb55e-s.p.woff2",
+        "64d784ea54a4acde-s.woff2",
+        "6d831b18ae5b01dc-s.woff2",
+        "ac0e76ddaeeb7981-s.woff2",
+        "edc640959b0c7826-s.woff2",
+        "ff71da380fbe67dd-s.woff2"
+      ]
+    },
+    {
+      "family": "Plus Jakarta Sans",
+      "weights": [
+        400
+      ],
+      "variable": true,
+      "fileCount": 4,
+      "files": [
+        "636a5ac981f94f8b-s.p.woff2",
+        "6fe53d21e6e7ebd8-s.woff2",
+        "8ebc6e9dde468c4a-s.woff2",
+        "9e7b0a821b9dfcb4-s.woff2"
+      ]
+    }
+  ],
+  "unidentified": [],
+  "meta": {
+    "generatedAt": "2026-06-25T16:51:05.040Z",
+    "tool": "fontkit"
+  }
+}

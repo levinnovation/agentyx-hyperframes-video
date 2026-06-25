@@ -1,0 +1,11 @@
+{
+  "name": "agentyx-product-promo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.7.7 preview",
+    "check": "npx --yes hyperframes@0.7.7 lint && npx --yes hyperframes@0.7.7 validate && npx --yes hyperframes@0.7.7 inspect --samples 15",
+    "render": "npx --yes hyperframes@0.7.7 render --output renders/agentyx-product-promo.mp4",
+    "publish": "npx --yes hyperframes@0.7.7 publish"
+  }
+}
