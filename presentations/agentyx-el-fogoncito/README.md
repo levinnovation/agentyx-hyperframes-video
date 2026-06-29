@@ -4,7 +4,7 @@ Presentación corporativa interactiva adaptada al **Sistema de Diseño Oficial d
 
 ## Estructura
 
-*   `index.html`: La presentación interactiva de 10 diapositivas estructurada y diseñada según los tokens de la marca (`brand-system/colors_and_type.css`).
+*   `index.html`: La presentación interactiva de 10 diapositivas estructurada y diseñada según los tokens de la marca (`brand-systems/agentyx-brand-system/colors_and_type.css`).
 *   Soporta escalado automático de pantalla 16:9 y navegación por teclado.
 
 ## Diapositivas

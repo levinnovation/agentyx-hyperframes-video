@@ -4,13 +4,13 @@ These rules apply specifically to development, styling, and asset management in 
 
 ## 1. Design System Alignment
 
-*   **Design Tokens First**: Do not define inline color values or custom font faces in template CSS. Always import and use the variables and typography classes defined in `/brand-system/colors_and_type.css`.
-*   **Dual Brand Systems**: Agentyx product materials use `/brand-system/`. Lev Innovation parent branding uses `/lev-brand-system/`. Presentations import both when co-branded.
-*   **Presentation Theme**: Slides and pitch decks wrap content in `.ax-presentation` and import `/brand-system/presentation.css`. Videos and HyperFrames compositions use the dark default (`:root`) — not `.ax-presentation`.
-*   **Icons**: Use official icons from `/brand-system/assets/icons/` or the sprite `/brand-system/icons.svg`. Do not use Lucide or other generic icon sets in Agentyx presentation decks.
-*   **Fonts Reference**: Ensure that all HTML documents use the local web fonts (`/brand-system/fonts/`) to prevent external network request dependencies and layout shift.
-*   **Asset Location**: Use `/brand-system/assets/` as the single source of truth for Agentyx branding images, logos, and illustrations. Lev assets live in `/lev-brand-system/assets/`.
-*   **Guidelines Compliance**: Consult `/brand-system/agentyx-brand-guidelines.md` for Agentyx and `/lev-brand-system/lev-brand-guidelines.md` for Lev Innovation before modifying format templates.
+*   **Design Tokens First**: Do not define inline color values or custom font faces in template CSS. Always import and use the variables and typography classes defined in `/brand-systems/agentyx-brand-system/colors_and_type.css`.
+*   **Dual Brand Systems**: Agentyx product materials use `/brand-systems/agentyx-brand-system/`. Lev Innovation parent branding uses `/brand-systems/lev-brand-system/`. Presentations import both when co-branded.
+*   **Presentation Theme**: Slides and pitch decks wrap content in `.ax-presentation` and import `/brand-systems/agentyx-brand-system/presentation.css`. Videos and HyperFrames compositions use the dark default (`:root`) — not `.ax-presentation`.
+*   **Icons**: Use official icons from `/brand-systems/agentyx-brand-system/assets/icons/` or the sprite `/brand-systems/agentyx-brand-system/icons.svg`. Do not use Lucide or other generic icon sets in Agentyx presentation decks.
+*   **Fonts Reference**: Ensure that all HTML documents use the local web fonts (`/brand-systems/agentyx-brand-system/fonts/`) to prevent external network request dependencies and layout shift.
+*   **Asset Location**: Use `/brand-systems/agentyx-brand-system/assets/` as the single source of truth for Agentyx branding images, logos, and illustrations. Lev assets live in `/brand-systems/lev-brand-system/assets/`.
+*   **Guidelines Compliance**: Consult `/brand-systems/agentyx-brand-system/agentyx-brand-guidelines.md` for Agentyx and `/brand-systems/lev-brand-system/lev-brand-guidelines.md` for Lev Innovation before modifying format templates.
 
 ## 2. Text Content & Copywriting
 

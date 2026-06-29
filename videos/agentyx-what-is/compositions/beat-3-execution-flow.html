@@ -1,0 +1,242 @@
+<template id="beat-3-execution-flow-template">
+  <div id="beat-3-execution-flow" data-composition-id="beat-3-execution-flow" data-start="0" data-duration="5.8" data-width="1920" data-height="1080">
+    <div class="bg-grid"></div>
+    <p class="eyebrow">FLUJO DE EJECUCIÓN</p>
+    <h2 class="title">Del trigger al resultado</h2>
+    <div class="pipeline">
+      <div class="step step-1">
+        <img class="step-icon" src="assets/icons/process/ax-icon-trigger.svg" alt="" />
+        <strong>1. Trigger</strong>
+        <span>Evento o solicitud</span>
+      </div>
+      <div class="arrow a1">→</div>
+      <div class="step step-2">
+        <img class="step-icon" src="assets/icons/process/ax-brain.svg" alt="" />
+        <strong>2. Contexto</strong>
+        <span>Datos y reglas</span>
+      </div>
+      <div class="arrow a2">→</div>
+      <div class="step step-3">
+        <img class="step-img" src="assets/icons/process/ax-icon-engine.svg" alt="" />
+        <strong>3. Ejecutar</strong>
+        <span>Herramientas del negocio</span>
+      </div>
+      <div class="arrow a3">→</div>
+      <div class="step step-4">
+        <img class="step-icon" src="assets/icons/process/ax-target.svg" alt="" />
+        <strong>4. Resultado</strong>
+        <span>Flujo completado</span>
+      </div>
+    </div>
+    <div class="ax-light panel">
+      <div class="panel-head">
+        <span class="dot"></span>
+        <span class="panel-title">Workflow · cotización automática</span>
+      </div>
+      <ul class="checklist">
+        <li class="item i1"><span class="box"></span>Cliente contacta por WhatsApp</li>
+        <li class="item i2"><span class="box"></span>Validar inventario en ERP</li>
+        <li class="item i3"><span class="box"></span>Generar cotización en CRM</li>
+        <li class="item i4"><span class="box"></span>Enviar respuesta y registrar</li>
+      </ul>
+    </div>
+    <style>
+      @font-face { font-family: "Plus Jakarta Sans"; src: url("assets/fonts/PlusJakartaSans.woff2") format("woff2"); font-weight: 400 800; font-display: swap; }
+      @font-face { font-family: "Inter"; src: url("assets/fonts/Inter.woff2") format("woff2"); font-weight: 300 700; font-display: swap; }
+      @font-face { font-family: "JetBrains Mono"; src: url("assets/fonts/Mono.woff2") format("woff2"); font-weight: 400 500; font-display: swap; }
+
+      .ax-light {
+        --ax-bg: #f8fafc;
+        --ax-surface: #ffffff;
+        --ax-fg: #0f172a;
+        --ax-fg-muted: #64748b;
+        --ax-border: #e2e8f0;
+        --ax-brand: #2563eb;
+        --ax-success: #22d3ee;
+      }
+
+      #beat-3-execution-flow {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #070b13;
+        color: #f8fafc;
+        font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+      }
+
+      .bg-grid {
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(34,211,238,0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(34,211,238,0.03) 1px, transparent 1px);
+        background-size: 56px 56px;
+      }
+
+      .eyebrow {
+        position: absolute;
+        left: 120px;
+        top: 72px;
+        margin: 0;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 14px;
+        letter-spacing: 0.14em;
+        color: #22d3ee;
+        text-transform: uppercase;
+      }
+
+      .title {
+        position: absolute;
+        left: 120px;
+        top: 108px;
+        margin: 0;
+        font-size: 56px;
+        letter-spacing: -0.02em;
+      }
+
+      .pipeline {
+        position: absolute;
+        left: 100px;
+        right: 100px;
+        top: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+      }
+
+      .step {
+        flex: 1;
+        max-width: 340px;
+        padding: 28px 24px;
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 16px;
+        background: #111827;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+      }
+
+      .step-icon, .step-img {
+        width: 40px;
+        height: 40px;
+        filter: brightness(0) saturate(100%) invert(78%) sepia(52%) saturate(1200%) hue-rotate(152deg) brightness(101%) contrast(101%);
+      }
+
+      .step strong {
+        font-size: 26px;
+        line-height: 1.1;
+      }
+
+      .step span {
+        font-family: "Inter", sans-serif;
+        font-size: 17px;
+        color: #94a3b8;
+      }
+
+      .arrow {
+        font-size: 32px;
+        color: #2563eb;
+        opacity: 0.7;
+        flex-shrink: 0;
+      }
+
+      .panel {
+        position: absolute;
+        left: 200px;
+        right: 200px;
+        bottom: 100px;
+        border-radius: 16px;
+        border: 1px solid var(--ax-border);
+        background: var(--ax-surface);
+        padding: 28px 36px;
+        box-shadow: 0 24px 64px rgba(0,0,0,0.4);
+        color: var(--ax-fg);
+      }
+
+      .panel-head {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 20px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--ax-border);
+      }
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--ax-success);
+        box-shadow: 0 0 12px rgba(34,211,238,0.6);
+      }
+
+      .panel-title {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 13px;
+        letter-spacing: 0.08em;
+        color: var(--ax-fg-muted);
+        text-transform: uppercase;
+      }
+
+      .checklist {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px 48px;
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        color: #334155;
+      }
+
+      .box {
+        width: 22px;
+        height: 22px;
+        border: 2px solid var(--ax-border);
+        border-radius: 6px;
+        flex-shrink: 0;
+        position: relative;
+      }
+
+      .item.done { color: var(--ax-fg); }
+      .item.done .box {
+        border-color: var(--ax-brand);
+        background: rgba(37,99,235,0.12);
+      }
+      .item.done .box::after {
+        content: "";
+        position: absolute;
+        left: 5px; top: 2px;
+        width: 6px; height: 11px;
+        border: solid var(--ax-brand);
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true, defaults: { ease: "power3.out" } });
+      tl.fromTo(".eyebrow, .title", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5, stagger: 0.08 }, 0.1);
+      tl.fromTo(".step", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.45, stagger: 0.12 }, 0.35);
+      tl.fromTo(".arrow", { opacity: 0, x: -10 }, { opacity: 0.7, x: 0, duration: 0.35, stagger: 0.1 }, 0.55);
+      tl.fromTo(".panel", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.55 }, 1.0);
+      tl.add(() => document.querySelector(".i1")?.classList.add("done"), 1.5);
+      tl.add(() => document.querySelector(".i2")?.classList.add("done"), 2.1);
+      tl.add(() => document.querySelector(".i3")?.classList.add("done"), 2.7);
+      tl.add(() => document.querySelector(".i4")?.classList.add("done"), 3.3);
+      tl.to(".step-4", { borderColor: "rgba(34,211,238,0.5)", boxShadow: "0 0 30px rgba(34,211,238,0.15)", duration: 0.5 }, 3.5);
+      window.__timelines["beat-3-execution-flow"] = tl;
+    </script>
+  </div>
+</template>

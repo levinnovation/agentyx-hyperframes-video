@@ -5,7 +5,7 @@ This template provides a print-ready, double-page A4 document format styled with
 ## Structure
 
 *   `index.html`: Double page preview using CSS styling optimized for printing or PDF exports.
-*   Inherits spacing and typographic styles from `../../brand-system/colors_and_type.css`.
+*   Inherits spacing and typographic styles from `../../brand-systems/agentyx-brand-system/colors_and_type.css`.
 
 ## How to Preview & Export
 

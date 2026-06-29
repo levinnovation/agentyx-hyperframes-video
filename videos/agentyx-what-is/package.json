@@ -1,0 +1,11 @@
+{
+  "name": "agentyx-what-is",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.7.7 preview --port 3018",
+    "check": "npx --yes hyperframes@0.7.7 lint && npx --yes hyperframes@0.7.7 validate && npx --yes hyperframes@0.7.7 inspect --samples 15",
+    "snapshot": "npx --yes hyperframes@0.7.7 snapshot . --at 2.5,7.5,13.5,19.5,23.5",
+    "render": "npx --yes hyperframes@0.7.7 render --output renders/agentyx-what-is.mp4"
+  }
+}

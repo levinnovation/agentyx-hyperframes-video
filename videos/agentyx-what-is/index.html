@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es" data-resolution="landscape">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, height=1080">
+    <title>Agentyx — Qué es Agentyx</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("assets/fonts/PlusJakartaSans.woff2") format("woff2");
+        font-weight: 400 800;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Inter";
+        src: url("assets/fonts/Inter.woff2") format("woff2");
+        font-weight: 300 700;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("assets/fonts/Mono.woff2") format("woff2");
+        font-weight: 400 500;
+        font-display: swap;
+      }
+
+      * { box-sizing: border-box; }
+
+      html, body {
+        margin: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #070b13;
+      }
+
+      body {
+        font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+      }
+
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #070b13;
+      }
+
+      .scene-clip {
+        position: absolute;
+        inset: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+      }
+
+      audio { display: none; }
+
+      /* HeyGen avatar PiP — hidden until real HeyGen export replaces placeholder */
+      .avatar-pip {
+        position: absolute;
+        right: 48px;
+        bottom: 48px;
+        width: 320px;
+        height: 320px;
+        border-radius: 20px;
+        overflow: hidden;
+        border: 2px solid rgba(34, 211, 238, 0.35);
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        z-index: 20;
+        object-fit: cover;
+        background: #111827;
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      .avatar-pip.use-heygen {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      data-hf-id="hf-main"
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="21.664"
+      data-width="1920"
+      data-height="1080"
+    >
+      <audio
+        data-hf-id="hf-narration"
+        id="narration"
+        src="narration.wav"
+        data-start="0"
+        data-duration="21.664"
+        data-track-index="0"
+        data-volume="1"
+      ></audio>
+
+      <video
+        data-hf-id="hf-avatar-pip"
+        id="avatar-pip"
+        class="avatar-pip clip"
+        src="audio/avatar.mp4"
+        data-start="0"
+        data-duration="21.664"
+        data-track-index="2"
+        data-volume="0"
+        muted
+        playsinline
+      ></video>
+
+      <div
+        data-hf-id="hf-b1"
+        id="beat-1"
+        class="scene-clip clip"
+        data-composition-id="beat-1-positioning"
+        data-composition-src="compositions/beat-1-positioning.html"
+        data-start="0"
+        data-duration="4"
+        data-track-index="1"
+      ></div>
+
+      <div
+        data-hf-id="hf-b2"
+        id="beat-2"
+        class="scene-clip clip"
+        data-composition-id="beat-2-systems"
+        data-composition-src="compositions/beat-2-systems.html"
+        data-start="4"
+        data-duration="4.2"
+        data-track-index="1"
+      ></div>
+
+      <div
+        data-hf-id="hf-b3"
+        id="beat-3"
+        class="scene-clip clip"
+        data-composition-id="beat-3-execution-flow"
+        data-composition-src="compositions/beat-3-execution-flow.html"
+        data-start="8.2"
+        data-duration="5.8"
+        data-track-index="1"
+      ></div>
+
+      <div
+        data-hf-id="hf-b4"
+        id="beat-4"
+        class="scene-clip clip"
+        data-composition-id="beat-4-value"
+        data-composition-src="compositions/beat-4-value.html"
+        data-start="14"
+        data-duration="4.2"
+        data-track-index="1"
+      ></div>
+
+      <div
+        data-hf-id="hf-b5"
+        id="beat-5"
+        class="scene-clip clip"
+        data-composition-id="beat-5-brand-close"
+        data-composition-src="compositions/beat-5-brand-close.html"
+        data-start="18.2"
+        data-duration="3.464"
+        data-track-index="1"
+      ></div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const pip = document.getElementById("avatar-pip");
+      const useHeygen = pip && pip.src.includes("avatar.mp4");
+
+      // Enable PiP only when HeyGen export replaces the tiny placeholder (>50KB)
+      fetch("audio/avatar.mp4", { method: "HEAD" }).then(r => {
+        const size = Number(r.headers.get("content-length") || 0);
+        if (size > 50000 && pip) pip.classList.add("use-heygen");
+      }).catch(() => {});
+
+      if (pip && pip.classList.contains("use-heygen")) {
+        tl.set(pip, { opacity: 0 }, 0);
+        tl.to(pip, { opacity: 1, duration: 0.35, overwrite: "auto" }, 0.15);
+        tl.to(pip, { opacity: 0, duration: 0.25, overwrite: "auto" }, 3.65);
+        tl.to(pip, { opacity: 1, duration: 0.35, overwrite: "auto" }, 18.2);
+      }
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

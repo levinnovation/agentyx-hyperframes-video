@@ -1,0 +1,117 @@
+/* ============================================================
+   LEV INNOVATION DESIGN SYSTEM — colors_and_type.css
+   Parent company brand: black, white, professional, monochrome
+   ============================================================ */
+
+@import url("../agentyx-brand-system/colors_and_type.css");
+
+:root {
+  --lev-bg: #000000;
+  --lev-bg-elevated: #0a0a0a;
+  --lev-surface: #111111;
+  --lev-fg: #ffffff;
+  --lev-fg-muted: rgba(255, 255, 255, 0.72);
+  --lev-fg-subtle: rgba(255, 255, 255, 0.52);
+  --lev-border: rgba(255, 255, 255, 0.12);
+  --lev-accent: #ffffff;
+  --lev-font: var(--ax-font-heading);
+  --lev-space-1: var(--ax-space-1);
+  --lev-space-2: var(--ax-space-2);
+  --lev-space-3: var(--ax-space-3);
+  --lev-space-4: var(--ax-space-4);
+  --lev-space-6: var(--ax-space-6);
+  --lev-space-8: var(--ax-space-8);
+  --lev-radius-sm: var(--ax-radius-sm);
+  --lev-radius-md: var(--ax-radius-md);
+}
+
+/* ============================================================
+   LEV COMPONENTS
+   ============================================================ */
+.lev-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--lev-space-2);
+  color: var(--lev-fg);
+  font-family: var(--lev-font);
+  font-size: var(--ax-fs-meta);
+  font-weight: 500;
+}
+
+.lev-lockup img,
+.lev-lockup svg {
+  flex-shrink: 0;
+}
+
+.lev-lockup .lev-logotype-img {
+  height: 22px;
+  width: auto;
+  display: block;
+}
+
+.lev-lockup .lev-logo-primary-img {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+
+.lev-lockup .lev-mark-img {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
+.lev-lockup .lev-by {
+  opacity: 0.72;
+  font-weight: 400;
+}
+.lev-footer-bar {
+  background: var(--lev-bg);
+  color: var(--lev-fg);
+  text-align: center;
+  padding: var(--lev-space-4) var(--lev-space-6);
+  font-family: var(--ax-font-body);
+  font-size: var(--ax-fs-body);
+  font-weight: 500;
+}
+
+.lev-split-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100%;
+}
+
+.lev-split-panel .lev-panel-dark {
+  background: var(--lev-bg);
+  color: var(--lev-fg);
+  padding: var(--lev-space-8);
+}
+
+.lev-split-panel .lev-panel-light {
+  background: #f9f9f7;
+  color: #0f172a;
+  padding: var(--lev-space-8);
+}
+
+.lev-mark {
+  display: inline-block;
+  height: 24px;
+  width: auto;
+}
+
+.lev-eyebrow {
+  font-family: var(--ax-font-mono);
+  font-size: var(--ax-fs-eyebrow);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: var(--ax-tracking-eyebrow);
+  color: var(--lev-fg-subtle);
+}
+
+.lev-panel-dark .lev-eyebrow {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.lev-panel-light .lev-eyebrow {
+  color: #64748b;
+}

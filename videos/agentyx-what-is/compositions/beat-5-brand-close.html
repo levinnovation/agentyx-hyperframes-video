@@ -1,0 +1,127 @@
+<template id="beat-5-brand-close-template">
+  <div id="beat-5-brand-close" data-composition-id="beat-5-brand-close" data-start="0" data-duration="3.46" data-width="1920" data-height="1080">
+    <div class="panel"></div>
+    <div class="glow-ring"></div>
+    <div class="brand-lockup">
+      <img class="logo-mark" src="assets/agentyx-logo.png" alt="" />
+      <div class="brand-text">
+        <img class="wordmark" src="assets/agentyx-wordmark.svg" alt="agentyx" />
+        <p class="tagline">Sistemas de IA para operaciones</p>
+      </div>
+    </div>
+    <div class="lev-row">
+      <span class="lev-by">by</span>
+      <img class="lev-logo" src="assets/lev/lev-logotype-on-light.png" alt="Lev innovation" />
+    </div>
+    <style>
+      @font-face { font-family: "Plus Jakarta Sans"; src: url("assets/fonts/PlusJakartaSans.woff2") format("woff2"); font-weight: 400 800; font-display: swap; }
+      @font-face { font-family: "Inter"; src: url("assets/fonts/Inter.woff2") format("woff2"); font-weight: 300 700; font-display: swap; }
+      @font-face { font-family: "JetBrains Mono"; src: url("assets/fonts/Mono.woff2") format("woff2"); font-weight: 400 500; font-display: swap; }
+
+      #beat-5-brand-close {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #070b13;
+        color: #f8fafc;
+        font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+      }
+
+      .panel {
+        position: absolute;
+        left: 240px;
+        right: 240px;
+        top: 180px;
+        bottom: 180px;
+        border: 1px solid rgba(34, 211, 238, 0.18);
+        border-radius: 28px;
+        background:
+          radial-gradient(circle at 50% 0%, rgba(37, 99, 235, 0.28), rgba(7, 11, 19, 0) 50%),
+          rgba(255, 255, 255, 0.03);
+        box-shadow: 0 40px 100px rgba(0, 0, 0, 0.35);
+      }
+
+      .glow-ring {
+        position: absolute;
+        left: 660px;
+        top: 320px;
+        width: 600px;
+        height: 400px;
+        border-radius: 50%;
+        border: 1px solid rgba(34, 211, 238, 0.2);
+        opacity: 0;
+      }
+
+      .brand-lockup {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 380px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        z-index: 2;
+      }
+
+      .logo-mark {
+        width: 110px;
+        height: 116px;
+        object-fit: contain;
+        filter: drop-shadow(0 20px 40px rgba(37, 99, 235, 0.45));
+      }
+
+      .brand-text {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .wordmark {
+        height: 48px;
+        width: auto;
+        filter: brightness(0) invert(1);
+      }
+
+      .tagline {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        font-size: 28px;
+        color: #94a3b8;
+        letter-spacing: 0.01em;
+      }
+
+      .lev-row {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        color: rgba(255,255,255,0.5);
+      }
+
+      .lev-logo {
+        height: 20px;
+        width: auto;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true, defaults: { ease: "power3.out" } });
+      tl.fromTo(".panel", { opacity: 0, scale: 0.94 }, { opacity: 1, scale: 1, duration: 0.6 }, 0.05);
+      tl.fromTo(".logo-mark", { opacity: 0, scale: 0.6, rotation: -8 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.7, ease: "expo.out" }, 0.2);
+      tl.fromTo(".wordmark, .tagline", { opacity: 0, x: 30 }, { opacity: 1, x: 0, duration: 0.5, stagger: 0.12 }, 0.45);
+      tl.fromTo(".glow-ring", { opacity: 0.6, scale: 0.85 }, { opacity: 0, scale: 1.2, duration: 1.1, ease: "power1.out" }, 0.55);
+      tl.fromTo(".lev-row", { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.4 }, 0.85);
+      tl.to(".logo-mark", { filter: "drop-shadow(0 24px 48px rgba(34,211,238,0.35))", duration: 0.5 }, 1.2);
+      window.__timelines["beat-5-brand-close"] = tl;
+    </script>
+  </div>
+</template>

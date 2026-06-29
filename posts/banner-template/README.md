@@ -5,7 +5,7 @@ This template provides a standard OpenGraph/LinkedIn post landscape template (12
 ## Structure
 
 *   `index.html`: Fully styled HTML viewport representing the social post layout.
-*   Inherits colors, variables, typography, and styles from `../../brand-system/colors_and_type.css`.
+*   Inherits colors, variables, typography, and styles from `../../brand-systems/agentyx-brand-system/colors_and_type.css`.
 
 ## How to Preview & Export
 

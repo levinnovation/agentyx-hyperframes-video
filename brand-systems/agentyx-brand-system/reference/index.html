@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1280" />
+  <title>Agentyx — Empleados de IA para tu operación (reference)</title>
+  <link rel="stylesheet" href="../colors_and_type.css" />
+  <style>
+    html, body { background: #070b13; }
+    section { padding: 96px 32px; }
+    .section-inner { max-width: 1400px; margin: 0 auto; }
+    a { color: inherit; }
+  </style>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel" src="Nav.jsx"></script>
+  <script type="text/babel" src="Hero.jsx"></script>
+  <script type="text/babel" src="Section.jsx"></script>
+
+  <script type="text/babel">
+    function App() {
+      return (
+        <React.Fragment>
+          <Nav />
+          <Hero />
+
+          <section id="why" style={{ background: '#070b13' }}>
+            <div className="section-inner">
+              <SectionHeader
+                eyebrow="DÓNDE ESTÁ EL TIEMPO DE TU EQUIPO"
+                title="Deja la carpintería operativa en manos de la IA."
+                subhead="Cruzar datos, perseguir aprobaciones y copiar entre plataformas. Agentyx absorbe ese trabajo mecánico 24/7. Tu equipo vuelve a lo estratégico."
+              />
+              <IntegrationStrip />
+            </div>
+          </section>
+
+          <section id="cases" style={{ background: '#070b13', borderTop: '1px solid rgba(255,255,255,0.04)' }}>
+            <div className="section-inner">
+              <SectionHeader
+                eyebrow="EMPLEADOS VIRTUALES EN PRODUCCIÓN"
+                title="Agentes reales, ejecutando trabajo real."
+                subhead="Ejemplos de agentes autónomos desplegados para absorber operación corporativa en LATAM."
+              />
+              <AgentsGrid />
+            </div>
+          </section>
+
+          <section id="platform" style={{ background: '#0c1220' }}>
+            <div className="section-inner">
+              <SectionHeader
+                eyebrow="CÓMO TRABAJA EL EQUIPO"
+                title="No es un agente suelto. Es un equipo coordinado con jerarquía."
+                subhead="Cuatro roles, permisos definidos y una ruta de escalamiento cuando la decisión es demasiado importante para automatizar."
+              />
+              <GovernanceList />
+            </div>
+          </section>
+
+          <section id="method" style={{ background: '#070b13' }}>
+            <div className="section-inner">
+              <FinalCTA />
+            </div>
+          </section>
+
+          <Footer />
+        </React.Fragment>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>

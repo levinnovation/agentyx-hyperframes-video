@@ -1,0 +1,198 @@
+<template id="beat-4-value-template">
+  <div id="beat-4-value" data-composition-id="beat-4-value" data-start="0" data-duration="4.2" data-width="1920" data-height="1080">
+    <div class="bg-glow"></div>
+    <p class="eyebrow">VALOR OPERATIVO</p>
+    <div class="compare">
+      <div class="col before">
+        <span class="label">Antes</span>
+        <h3>Trabajo manual</h3>
+        <ul>
+          <li>Procesos fragmentados</li>
+          <li>Respuestas lentas</li>
+          <li>Equipo sobrecargado</li>
+        </ul>
+      </div>
+      <div class="divider"></div>
+      <div class="col after">
+        <span class="label">Con Agentyx</span>
+        <h3>Ejecución continua</h3>
+        <ul>
+          <li>Flujos estructurados</li>
+          <li>Resultados en minutos</li>
+          <li>Equipo en excepciones</li>
+        </ul>
+      </div>
+    </div>
+    <div class="kpis">
+      <div class="kpi k1">
+        <span class="num">24/7</span>
+        <span class="lbl">disponibilidad</span>
+      </div>
+      <div class="kpi k2">
+        <span class="num">Min</span>
+        <span class="lbl">tiempo de respuesta</span>
+      </div>
+      <div class="kpi k3">
+        <span class="num">-70%</span>
+        <span class="lbl">carga operativa</span>
+      </div>
+    </div>
+    <style>
+      @font-face { font-family: "Plus Jakarta Sans"; src: url("assets/fonts/PlusJakartaSans.woff2") format("woff2"); font-weight: 400 800; font-display: swap; }
+      @font-face { font-family: "Inter"; src: url("assets/fonts/Inter.woff2") format("woff2"); font-weight: 300 700; font-display: swap; }
+      @font-face { font-family: "JetBrains Mono"; src: url("assets/fonts/Mono.woff2") format("woff2"); font-weight: 400 500; font-display: swap; }
+
+      #beat-4-value {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #070b13;
+        color: #f8fafc;
+        font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+      }
+
+      .bg-glow {
+        position: absolute;
+        width: 1200px;
+        height: 600px;
+        left: 360px;
+        top: 200px;
+        background: radial-gradient(circle, rgba(37,99,235,0.12), transparent 65%);
+      }
+
+      .eyebrow {
+        position: absolute;
+        left: 120px;
+        top: 72px;
+        margin: 0;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 14px;
+        letter-spacing: 0.14em;
+        color: #22d3ee;
+        text-transform: uppercase;
+      }
+
+      .compare {
+        position: absolute;
+        left: 120px;
+        right: 120px;
+        top: 130px;
+        height: 340px;
+        display: grid;
+        grid-template-columns: 1fr 2px 1fr;
+        gap: 0;
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 20px;
+        overflow: hidden;
+        background: #0c1220;
+      }
+
+      .col {
+        padding: 48px 56px;
+      }
+
+      .before {
+        opacity: 0.55;
+        color: #94a3b8;
+      }
+
+      .after {
+        background: linear-gradient(135deg, rgba(37,99,235,0.08), transparent);
+      }
+
+      .divider {
+        background: rgba(34,211,238,0.25);
+      }
+
+      .label {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 12px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #64748b;
+      }
+
+      .after .label { color: #22d3ee; }
+
+      .col h3 {
+        margin: 16px 0 20px;
+        font-size: 40px;
+        line-height: 1.1;
+      }
+
+      .col ul {
+        margin: 0;
+        padding-left: 20px;
+        font-family: "Inter", sans-serif;
+        font-size: 22px;
+        line-height: 1.6;
+      }
+
+      .kpis {
+        position: absolute;
+        left: 120px;
+        right: 120px;
+        bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+      }
+
+      .kpi {
+        padding: 32px 28px;
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 16px;
+        background: #111827;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .kpi::after {
+        content: "";
+        position: absolute;
+        left: 0; right: 0; bottom: 0;
+        height: 3px;
+        background: linear-gradient(90deg, #2563eb, #22d3ee);
+        transform: scaleX(0);
+        transform-origin: left;
+      }
+
+      .num {
+        display: block;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -0.03em;
+        color: #f8fafc;
+      }
+
+      .lbl {
+        display: block;
+        margin-top: 12px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #94a3b8;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true, defaults: { ease: "power3.out" } });
+      tl.fromTo(".eyebrow", { opacity: 0, y: -16 }, { opacity: 1, y: 0, duration: 0.4 }, 0.05);
+      tl.fromTo(".before", { opacity: 0, x: -40 }, { opacity: 0.55, x: 0, duration: 0.55 }, 0.15);
+      tl.fromTo(".after", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.55 }, 0.25);
+      tl.fromTo(".kpi", { opacity: 0, y: 36 }, { opacity: 1, y: 0, duration: 0.5, stagger: 0.1 }, 0.65);
+      tl.fromTo(".k1 .num", { textContent: "0" }, { textContent: "24/7", duration: 0.01, snap: { textContent: 1 } }, 1.0);
+      tl.to(".k1", { borderColor: "rgba(34,211,238,0.45)", duration: 0.4 }, 1.0);
+      tl.fromTo(".k2 .num", { scale: 0.8 }, { scale: 1, duration: 0.4, ease: "expo.out" }, 1.15);
+      tl.fromTo(".k3 .num", { opacity: 0.3 }, { opacity: 1, duration: 0.35 }, 1.3);
+      tl.to(".after", { boxShadow: "inset 0 0 60px rgba(34,211,238,0.08)", duration: 0.6 }, 1.5);
+      tl.to(".kpi", { y: -4, duration: 0.8, stagger: 0.05, ease: "sine.inOut", yoyo: true, repeat: 1 }, 2.0);
+      window.__timelines["beat-4-value"] = tl;
+    </script>
+  </div>
+</template>

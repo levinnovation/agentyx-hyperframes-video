@@ -18,8 +18,9 @@ videos/<video-name>/
 └── renders/
 ```
 
-The current reference project is:
+The current reference projects are:
 
-- `agentyx-product-promo`
+- `agentyx-product-promo` — original 20s promo (legacy light theme)
+- `agentyx-what-is` — 22s explainer with updated dark brand-system
 
 Use it as the canonical example for structure, naming, and quality checks.

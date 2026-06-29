@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
-  <path d="M12 4L20 9v6l-8 5-8-5V9l8-5z" fill="var(--ax-cube-top, #3B82F6)"/>
-  <path d="M12 4v10l8 5V9l-8-5z" fill="var(--ax-cube-front, #2563EB)"/>
-  <path d="M12 4L4 9v6l8 5V14L4 9l8-5z" fill="var(--ax-cube-side, #1E3A5F)"/>
-</svg>

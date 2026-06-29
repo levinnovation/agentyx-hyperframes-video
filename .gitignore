@@ -10,10 +10,11 @@ node_modules/
 # Local Python/voice experiments
 **/.venv/
 
-# Generated exports can be heavy. Commit only intentional deliverables.
-**/renders/*.mp4
-**/renders/*.mov
-**/renders/*.webm
+# Generated exports and heavy media binaries. Never track video files in git.
+*.mp4
+*.mov
+*.webm
+*.avi
 
 # Keep source snapshots when they are used for review, but ignore ad-hoc extras.
 **/snapshots/tmp/

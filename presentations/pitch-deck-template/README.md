@@ -5,7 +5,7 @@ This template enables you to build high-performance slide deck presentations sty
 ## Structure
 
 *   `index.html`: Fully styled, vanilla responsive HTML slide layout.
-*   Uses central variables in `../../brand-system/colors_and_type.css`.
+*   Uses central variables in `../../brand-systems/agentyx-brand-system/colors_and_type.css`.
 *   Includes slide viewport scaling JavaScript to support standard 16:9 displays.
 
 ## How to Run

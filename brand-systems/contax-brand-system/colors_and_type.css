@@ -1,0 +1,18 @@
+/* ============================================================
+   CONTAX BRAND DESIGN SYSTEM — colors_and_type.css
+   ============================================================ */
+
+@import url("../agentyx-brand-system/colors_and_type.css");
+
+:root {
+  /* Contax branding colors (purple/pink scale) */
+  --contax-bg: #09060f;
+  --contax-bg-elevated: #0f0a18;
+  --contax-surface: #140d20;
+  --contax-fg: #f5f3f7;
+  --contax-fg-muted: #b9b3c2;
+  --contax-border: rgba(255, 255, 255, 0.08);
+  --contax-accent: #d946ef; /* Magenta CTA */
+  --contax-accent-soft: #f472b6;
+  --contax-accent-tint: rgba(217, 70, 239, 0.10);
+}

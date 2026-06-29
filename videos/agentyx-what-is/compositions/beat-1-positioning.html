@@ -1,0 +1,176 @@
+<template id="beat-1-positioning-template">
+  <div id="beat-1-positioning" data-composition-id="beat-1-positioning" data-start="0" data-duration="4" data-width="1920" data-height="1080">
+    <div class="bg-grid"></div>
+    <div class="hero-glow"></div>
+    <p class="eyebrow">POSICIONAMIENTO / AGENTYX</p>
+    <div class="split">
+      <div class="panel panel-past">
+        <div class="panel-label">EL PASADO</div>
+        <img class="panel-icon" src="assets/icons/process/ax-icon-ai-assistance.svg" alt="" />
+        <h2>Asistencia IA</h2>
+        <ul>
+          <li>Se detiene en la conversación</li>
+          <li>Genera texto y sugerencias</li>
+          <li>Requiere prompting manual</li>
+        </ul>
+      </div>
+      <div class="panel panel-future">
+        <div class="panel-label">EL FUTURO</div>
+        <img class="panel-icon" src="assets/icons/process/ax-icon-ai-execution.svg" alt="" />
+        <h2>Ejecución IA</h2>
+        <ul>
+          <li>Recibe contexto operativo</li>
+          <li>Decide qué debe ocurrir</li>
+          <li>Completa el flujo de trabajo</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-line">Agentyx está hecho para ejecutar, no para conversar.</div>
+    <style>
+      @font-face { font-family: "Plus Jakarta Sans"; src: url("assets/fonts/PlusJakartaSans.woff2") format("woff2"); font-weight: 400 800; font-display: swap; }
+      @font-face { font-family: "Inter"; src: url("assets/fonts/Inter.woff2") format("woff2"); font-weight: 300 700; font-display: swap; }
+      @font-face { font-family: "JetBrains Mono"; src: url("assets/fonts/Mono.woff2") format("woff2"); font-weight: 400 500; font-display: swap; }
+
+      #beat-1-positioning {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #070b13;
+        background-image: var(--ax-hero-radial, radial-gradient(circle at 50% 35%, rgba(37,99,235,0.14), transparent 48%), linear-gradient(to bottom, rgba(7,11,19,0.2), #070b13 96%));
+        color: #f8fafc;
+        font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+      }
+
+      .bg-grid {
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(34, 211, 238, 0.04) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(34, 211, 238, 0.04) 1px, transparent 1px);
+        background-size: 64px 64px;
+        opacity: 0.5;
+      }
+
+      .hero-glow {
+        position: absolute;
+        width: 900px;
+        height: 500px;
+        left: 510px;
+        top: 180px;
+        background: radial-gradient(circle, rgba(37, 99, 235, 0.18), transparent 70%);
+        filter: blur(40px);
+      }
+
+      .eyebrow {
+        position: absolute;
+        left: 120px;
+        top: 72px;
+        margin: 0;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 14px;
+        letter-spacing: 0.14em;
+        color: #22d3ee;
+        text-transform: uppercase;
+      }
+
+      .split {
+        position: absolute;
+        left: 80px;
+        right: 80px;
+        top: 140px;
+        bottom: 160px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        border-radius: 24px;
+        overflow: hidden;
+        border: 1px solid rgba(255,255,255,0.1);
+      }
+
+      .panel {
+        padding: 64px 72px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .panel-past {
+        background: #0a0a0a;
+        color: rgba(255,255,255,0.45);
+        border-right: 1px solid rgba(255,255,255,0.08);
+      }
+
+      .panel-future {
+        background: linear-gradient(145deg, rgba(37,99,235,0.12), rgba(7,11,19,0.95));
+        color: #f8fafc;
+        box-shadow: inset 0 0 80px rgba(34,211,238,0.06);
+      }
+
+      .panel-label {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 12px;
+        letter-spacing: 0.14em;
+        color: #64748b;
+      }
+
+      .panel-future .panel-label { color: #22d3ee; }
+
+      .panel-icon {
+        width: 96px;
+        height: 96px;
+      }
+
+      .panel-past .panel-icon { opacity: 0.35; filter: grayscale(1); }
+
+      .panel h2 {
+        margin: 0;
+        font-size: 52px;
+        line-height: 1.05;
+        letter-spacing: -0.02em;
+      }
+
+      .panel ul {
+        margin: 8px 0 0;
+        padding-left: 22px;
+        font-family: "Inter", sans-serif;
+        font-size: 22px;
+        line-height: 1.55;
+        color: inherit;
+      }
+
+      .panel-past ul { color: rgba(255,255,255,0.55); }
+      .panel-future ul { color: #cbd5e1; }
+
+      .footer-line {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(15, 23, 42, 0.92);
+        border-top: 1px solid rgba(34,211,238,0.2);
+        font-family: "Inter", sans-serif;
+        font-size: 22px;
+        color: #e2e8f0;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true, defaults: { ease: "power3.out" } });
+      tl.fromTo(".panel-past", { x: -80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.7 }, 0.1);
+      tl.fromTo(".panel-future", { x: 80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.7 }, 0.2);
+      tl.fromTo(".eyebrow", { opacity: 0, y: -16 }, { opacity: 1, y: 0, duration: 0.45 }, 0.15);
+      tl.fromTo(".panel-future .panel-icon", { scale: 0.8, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.6, ease: "expo.out" }, 0.55);
+      tl.fromTo(".panel-future h2, .panel-future li", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.45, stagger: 0.06 }, 0.75);
+      tl.to(".panel-past", { opacity: 0.55, duration: 0.5 }, 1.1);
+      tl.fromTo(".footer-line", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5 }, 1.4);
+      tl.to(".panel-future", { boxShadow: "inset 0 0 100px rgba(34,211,238,0.12)", duration: 0.8 }, 2.0);
+      window.__timelines["beat-1-positioning"] = tl;
+    </script>
+  </div>
+</template>

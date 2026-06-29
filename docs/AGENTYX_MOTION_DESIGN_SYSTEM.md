@@ -1,6 +1,6 @@
 # Agentyx Motion Design System
 
-This document defines the visual and motion language for Agentyx **videos**. For presentation slides and pitch decks, use the Presentation Theme in [`brand-system/colors_and_type.css`](../brand-system/colors_and_type.css) (`.ax-presentation`) and [`brand-system/presentation.css`](../brand-system/presentation.css).
+This document defines the visual and motion language for Agentyx **videos**. For presentation slides and pitch decks, use the Presentation Theme in [`brand-systems/agentyx-brand-system/colors_and_type.css`](../brand-systems/agentyx-brand-system/colors_and_type.css) (`.ax-presentation`) and [`brand-systems/agentyx-brand-system/presentation.css`](../brand-systems/agentyx-brand-system/presentation.css).
 
 ## Brand Feel
 
@@ -17,17 +17,19 @@ Avoid generic AI visuals. The product is not magic dust. It is operational labor
 
 ## Core Palette
 
-- Primary surface: `#F7F9FC`
-- Raised surface: `#FFFFFF`
-- Primary text: `#172033`
-- Dark text: `#111827`
-- Muted text: `#475569`
-- Primary blue: `#2563EB`
-- Strong blue: `#1D4ED8`
-- Cyan accent: `#22D3EE`
-- Success green: `#34D399`
-- Border: `#D2DAE4`
-- Dark command surface: `#070B13`
+Videos use the **dark default** from `brand-systems/agentyx-brand-system/colors_and_type.css`:
+
+- Canvas: `#070B13` (`--ax-bg`)
+- Elevated surface: `#0C1220` (`--ax-bg-elevated`)
+- Card surface: `#111827` (`--ax-surface`)
+- Primary text: `#F8FAFC` (`--ax-fg`)
+- Muted text: `#94A3B8` (`--ax-fg-muted`)
+- Primary blue: `#2563EB` (`--ax-brand`)
+- Cyan accent: `#22D3EE` (`--ax-cyan`)
+
+Product mockups inside dark scenes use the `.ax-light` scope (white dashboard panels on `#F8FAFC`).
+
+Legacy light palette (`#F7F9FC` page base) applies to presentation slides (`.ax-presentation`), not new videos.
 
 ## Typography
 
